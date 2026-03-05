@@ -1,26 +1,31 @@
-const initLikeButton = () => {
-  const likeWrapper = document.getElementById('likeBtn');
-  const likeCountSpan = likeWrapper?.querySelector('.card__like-count');
+const initLikeButton = (selector = '.card__like') => {
+  const likeButtons = document.querySelectorAll(selector);
 
-  if (!likeWrapper || !likeCountSpan) return;
+  if (!likeButtons.length) return;
 
-  let count = 57;
-  let isLiked = false;
+  likeButtons.forEach((button) => {
+    const likeCountSpan = button.querySelector('.card__like-count');
+    if (!likeCountSpan) return;
 
-  const handleClick = () => {
-    if (isLiked) {
-      count--;
-      likeWrapper.classList.remove('card__like--liked');
-      isLiked = false;
-    } else {
-      count++;
-      likeWrapper.classList.add('card__like--liked');
-      isLiked = true;
-    }
-    likeCountSpan.textContent = count;
-  };
+    let count = parseInt(likeCountSpan.textContent, 10) || 0;
+    let isLiked = false;
 
-  likeWrapper.addEventListener('click', handleClick);
+    const handleClick = () => {
+      if (isLiked) {
+        count--;
+        button.classList.remove('card__like--liked');
+        isLiked = false;
+      } else {
+        count++;
+        button.classList.add('card__like--liked');
+        isLiked = true;
+      }
+
+      likeCountSpan.textContent = count;
+    };
+
+    button.addEventListener('click', handleClick);
+  });
 };
 
 export default initLikeButton;

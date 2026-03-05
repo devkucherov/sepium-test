@@ -19,160 +19,351 @@
   <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
-  <h1 class="page-title visually-hidden">
-    Заголовок страницы
-  </h1>
-  <section class="section container">
-    <h2 class="section__title visually-hidden">
-      Заголовок секции
-    </h2>
-    <div class="section__grid">
-      <!-- card -->
-      <div class="section__card card">
-        <a class="card__link" href="/card" target="_blank"></a>
-        <!-- card__slider -->
-        <div class="card__slider">
-          <div class="swiper card__slider-swiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide card__slider-slide">
-                <img
-                    class="card__slider-image"
-                    src="./assets/images/slide-1.jpg"
-                    alt="Товар фото 1"
-                  >
-                <button href="./assets/images/slide-1-large.jpg" data-fancybox="gallery" data-caption="Описание 1" class="card__slider-zoom" aria-label="Открыть изображение в полном размере">
-                  <svg aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M19.2 11.1C19.2 11.3387 19.2948 11.5676 19.4636 11.7364C19.6324 11.9052 19.8613 12 20.1 12C20.3387 12 20.5676 11.9052 20.7364 11.7364C20.9052 11.5676 21 11.3387 21 11.1V3.9C21 3.66131 20.9052 3.43239 20.7364 3.2636C20.5676 3.09482 20.3387 3 20.1 3H12.9C12.6613 3 12.4324 3.09482 12.2636 3.2636C12.0948 3.43239 12 3.66131 12 3.9C12 4.13869 12.0948 4.36761 12.2636 4.5364C12.4324 4.70518 12.6613 4.8 12.9 4.8H19.2V11.1ZM4.8 12.9C4.8 12.6613 4.70518 12.4324 4.5364 12.2636C4.36761 12.0948 4.13869 12 3.9 12C3.66131 12 3.43239 12.0948 3.2636 12.2636C3.09482 12.4324 3 12.6613 3 12.9V20.1C3 20.3387 3.09482 20.5676 3.2636 20.7364C3.43239 20.9052 3.66131 21 3.9 21H11.1C11.3387 21 11.5676 20.9052 11.7364 20.7364C11.9052 20.5676 12 20.3387 12 20.1C12 19.8613 11.9052 19.6324 11.7364 19.4636C11.5676 19.2948 11.3387 19.2 11.1 19.2H4.8V12.9Z" fill="#464646"/>
-                  </svg>
-                </button>
-              </div>
-              <div class="swiper-slide card__slider-slide">
-                <img
-                  class="card__slider-image"
-                  src="./assets/images/slide-1.jpg"
-                  alt="Товар фото 2"
-                >
-                <button href="./assets/images/slide-1-large.jpg" data-fancybox="gallery" data-caption="Описание 2" class="card__slider-zoom" aria-label="Открыть изображение в полном размере">
-                  <svg aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M19.2 11.1C19.2 11.3387 19.2948 11.5676 19.4636 11.7364C19.6324 11.9052 19.8613 12 20.1 12C20.3387 12 20.5676 11.9052 20.7364 11.7364C20.9052 11.5676 21 11.3387 21 11.1V3.9C21 3.66131 20.9052 3.43239 20.7364 3.2636C20.5676 3.09482 20.3387 3 20.1 3H12.9C12.6613 3 12.4324 3.09482 12.2636 3.2636C12.0948 3.43239 12 3.66131 12 3.9C12 4.13869 12.0948 4.36761 12.2636 4.5364C12.4324 4.70518 12.6613 4.8 12.9 4.8H19.2V11.1ZM4.8 12.9C4.8 12.6613 4.70518 12.4324 4.5364 12.2636C4.36761 12.0948 4.13869 12 3.9 12C3.66131 12 3.43239 12.0948 3.2636 12.2636C3.09482 12.4324 3 12.6613 3 12.9V20.1C3 20.3387 3.09482 20.5676 3.2636 20.7364C3.43239 20.9052 3.66131 21 3.9 21H11.1C11.3387 21 11.5676 20.9052 11.7364 20.7364C11.9052 20.5676 12 20.3387 12 20.1C12 19.8613 11.9052 19.6324 11.7364 19.4636C11.5676 19.2948 11.3387 19.2 11.1 19.2H4.8V12.9Z" fill="#464646"/>
-                  </svg>
-                </button>
-              </div>
-              <div class="swiper-slide card__slider-slide">
-                <img
-                  class="card__slider-image"
-                  src="./assets/images/slide-1.jpg"
-                  alt="Товар фото 3"
-                >
-                <button href="./assets/images/slide-1-large.jpg" data-fancybox="gallery" data-caption="Описание 3" class="card__slider-zoom" aria-label="Открыть изображение в полном размере">
-                  <svg aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M19.2 11.1C19.2 11.3387 19.2948 11.5676 19.4636 11.7364C19.6324 11.9052 19.8613 12 20.1 12C20.3387 12 20.5676 11.9052 20.7364 11.7364C20.9052 11.5676 21 11.3387 21 11.1V3.9C21 3.66131 20.9052 3.43239 20.7364 3.2636C20.5676 3.09482 20.3387 3 20.1 3H12.9C12.6613 3 12.4324 3.09482 12.2636 3.2636C12.0948 3.43239 12 3.66131 12 3.9C12 4.13869 12.0948 4.36761 12.2636 4.5364C12.4324 4.70518 12.6613 4.8 12.9 4.8H19.2V11.1ZM4.8 12.9C4.8 12.6613 4.70518 12.4324 4.5364 12.2636C4.36761 12.0948 4.13869 12 3.9 12C3.66131 12 3.43239 12.0948 3.2636 12.2636C3.09482 12.4324 3 12.6613 3 12.9V20.1C3 20.3387 3.09482 20.5676 3.2636 20.7364C3.43239 20.9052 3.66131 21 3.9 21H11.1C11.3387 21 11.5676 20.9052 11.7364 20.7364C11.9052 20.5676 12 20.3387 12 20.1C12 19.8613 11.9052 19.6324 11.7364 19.4636C11.5676 19.2948 11.3387 19.2 11.1 19.2H4.8V12.9Z" fill="#464646"/>
-                  </svg>
-                </button>
-              </div>
-              <div class="swiper-slide card__slider-slide">
-                <img
-                  class="card__slider-image"
-                  src="./assets/images/slide-1.jpg"
-                  alt="Товар фото 14"
-                >
-                <button href="./assets/images/slide-1-large.jpg" data-fancybox="gallery" data-caption="Описание 4" class="card__slider-zoom" aria-label="Открыть изображение в полном размере">
-                  <svg aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M19.2 11.1C19.2 11.3387 19.2948 11.5676 19.4636 11.7364C19.6324 11.9052 19.8613 12 20.1 12C20.3387 12 20.5676 11.9052 20.7364 11.7364C20.9052 11.5676 21 11.3387 21 11.1V3.9C21 3.66131 20.9052 3.43239 20.7364 3.2636C20.5676 3.09482 20.3387 3 20.1 3H12.9C12.6613 3 12.4324 3.09482 12.2636 3.2636C12.0948 3.43239 12 3.66131 12 3.9C12 4.13869 12.0948 4.36761 12.2636 4.5364C12.4324 4.70518 12.6613 4.8 12.9 4.8H19.2V11.1ZM4.8 12.9C4.8 12.6613 4.70518 12.4324 4.5364 12.2636C4.36761 12.0948 4.13869 12 3.9 12C3.66131 12 3.43239 12.0948 3.2636 12.2636C3.09482 12.4324 3 12.6613 3 12.9V20.1C3 20.3387 3.09482 20.5676 3.2636 20.7364C3.43239 20.9052 3.66131 21 3.9 21H11.1C11.3387 21 11.5676 20.9052 11.7364 20.7364C11.9052 20.5676 12 20.3387 12 20.1C12 19.8613 11.9052 19.6324 11.7364 19.4636C11.5676 19.2948 11.3387 19.2 11.1 19.2H4.8V12.9Z" fill="#464646"/>
-                  </svg>
-                </button>
-              </div>
+<h1 class="page-title visually-hidden">
+  Заголовок страницы
+</h1>
+<section class="section container">
+  <h2 class="section__title visually-hidden">
+    Заголовок секции
+  </h2>
+  <div class="section__grid">
+    <!-- card 1 -->
+    <div class="section__card card">
+      <a class="card__link" href="/card" target="_blank"></a>
+      <!-- card__slider -->
+      <div class="card__slider">
+        <div class="swiper card__slider-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide card__slider-slide">
+              <img
+                class="card__slider-image"
+                src="./assets/images/slide-1.jpg"
+                alt="Товар фото 1"
+              >
+              <a
+                href="./assets/images/slide-1-large.jpg"
+                data-fancybox="gallery"
+                data-caption="Описание 1"
+                class="card__slider-zoom"
+                aria-label="Открыть изображение в полном размере"
+              >
+                <svg aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M19.2 11.1C19.2 11.3387 19.2948 11.5676 19.4636 11.7364C19.6324 11.9052 19.8613 12 20.1 12C20.3387 12 20.5676 11.9052 20.7364 11.7364C20.9052 11.5676 21 11.3387 21 11.1V3.9C21 3.66131 20.9052 3.43239 20.7364 3.2636C20.5676 3.09482 20.3387 3 20.1 3H12.9C12.6613 3 12.4324 3.09482 12.2636 3.2636C12.0948 3.43239 12 3.66131 12 3.9C12 4.13869 12.0948 4.36761 12.2636 4.5364C12.4324 4.70518 12.6613 4.8 12.9 4.8H19.2V11.1ZM4.8 12.9C4.8 12.6613 4.70518 12.4324 4.5364 12.2636C4.36761 12.0948 4.13869 12 3.9 12C3.66131 12 3.43239 12.0948 3.2636 12.2636C3.09482 12.4324 3 12.6613 3 12.9V20.1C3 20.3387 3.09482 20.5676 3.2636 20.7364C3.43239 20.9052 3.66131 21 3.9 21H11.1C11.3387 21 11.5676 20.9052 11.7364 20.7364C11.9052 20.5676 12 20.3387 12 20.1C12 19.8613 11.9052 19.6324 11.7364 19.4636C11.5676 19.2948 11.3387 19.2 11.1 19.2H4.8V12.9Z" fill="#464646"/>
+                </svg>
+              </a>
             </div>
-            <div class="card__slider-description">
-              Описание товара
+            <div class="swiper-slide card__slider-slide">
+              <img
+                class="card__slider-image"
+                src="./assets/images/slide-1.jpg"
+                alt="Товар фото 2"
+              >
+              <a
+                href="./assets/images/slide-1-large.jpg"
+                data-fancybox="gallery"
+                data-caption="Описание 2"
+                class="card__slider-zoom"
+                aria-label="Открыть изображение в полном размере"
+              >
+                <svg aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M19.2 11.1C19.2 11.3387 19.2948 11.5676 19.4636 11.7364C19.6324 11.9052 19.8613 12 20.1 12C20.3387 12 20.5676 11.9052 20.7364 11.7364C20.9052 11.5676 21 11.3387 21 11.1V3.9C21 3.66131 20.9052 3.43239 20.7364 3.2636C20.5676 3.09482 20.3387 3 20.1 3H12.9C12.6613 3 12.4324 3.09482 12.2636 3.2636C12.0948 3.43239 12 3.66131 12 3.9C12 4.13869 12.0948 4.36761 12.2636 4.5364C12.4324 4.70518 12.6613 4.8 12.9 4.8H19.2V11.1ZM4.8 12.9C4.8 12.6613 4.70518 12.4324 4.5364 12.2636C4.36761 12.0948 4.13869 12 3.9 12C3.66131 12 3.43239 12.0948 3.2636 12.2636C3.09482 12.4324 3 12.6613 3 12.9V20.1C3 20.3387 3.09482 20.5676 3.2636 20.7364C3.43239 20.9052 3.66131 21 3.9 21H11.1C11.3387 21 11.5676 20.9052 11.7364 20.7364C11.9052 20.5676 12 20.3387 12 20.1C12 19.8613 11.9052 19.6324 11.7364 19.4636C11.5676 19.2948 11.3387 19.2 11.1 19.2H4.8V12.9Z" fill="#464646"/>
+                </svg>
+              </a>
+            </div>
+            <div class="swiper-slide card__slider-slide">
+              <img
+                class="card__slider-image"
+                src="./assets/images/slide-1.jpg"
+                alt="Товар фото 3"
+              >
+              <a
+                href="./assets/images/slide-1-large.jpg"
+                data-fancybox="gallery"
+                data-caption="Описание 3"
+                class="card__slider-zoom"
+                aria-label="Открыть изображение в полном размере"
+              >
+                <svg aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M19.2 11.1C19.2 11.3387 19.2948 11.5676 19.4636 11.7364C19.6324 11.9052 19.8613 12 20.1 12C20.3387 12 20.5676 11.9052 20.7364 11.7364C20.9052 11.5676 21 11.3387 21 11.1V3.9C21 3.66131 20.9052 3.43239 20.7364 3.2636C20.5676 3.09482 20.3387 3 20.1 3H12.9C12.6613 3 12.4324 3.09482 12.2636 3.2636C12.0948 3.43239 12 3.66131 12 3.9C12 4.13869 12.0948 4.36761 12.2636 4.5364C12.4324 4.70518 12.6613 4.8 12.9 4.8H19.2V11.1ZM4.8 12.9C4.8 12.6613 4.70518 12.4324 4.5364 12.2636C4.36761 12.0948 4.13869 12 3.9 12C3.66131 12 3.43239 12.0948 3.2636 12.2636C3.09482 12.4324 3 12.6613 3 12.9V20.1C3 20.3387 3.09482 20.5676 3.2636 20.7364C3.43239 20.9052 3.66131 21 3.9 21H11.1C11.3387 21 11.5676 20.9052 11.7364 20.7364C11.9052 20.5676 12 20.3387 12 20.1C12 19.8613 11.9052 19.6324 11.7364 19.4636C11.5676 19.2948 11.3387 19.2 11.1 19.2H4.8V12.9Z" fill="#464646"/>
+                </svg>
+              </a>
+            </div>
+            <div class="swiper-slide card__slider-slide">
+              <img
+                class="card__slider-image"
+                src="./assets/images/slide-1.jpg"
+                alt="Товар фото 4"
+              >
+              <a
+                href="./assets/images/slide-1-large.jpg"
+                data-fancybox="gallery"
+                data-caption="Описание 4"
+                class="card__slider-zoom"
+                aria-label="Открыть изображение в полном размере"
+              >
+                <svg aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M19.2 11.1C19.2 11.3387 19.2948 11.5676 19.4636 11.7364C19.6324 11.9052 19.8613 12 20.1 12C20.3387 12 20.5676 11.9052 20.7364 11.7364C20.9052 11.5676 21 11.3387 21 11.1V3.9C21 3.66131 20.9052 3.43239 20.7364 3.2636C20.5676 3.09482 20.3387 3 20.1 3H12.9C12.6613 3 12.4324 3.09482 12.2636 3.2636C12.0948 3.43239 12 3.66131 12 3.9C12 4.13869 12.0948 4.36761 12.2636 4.5364C12.4324 4.70518 12.6613 4.8 12.9 4.8H19.2V11.1ZM4.8 12.9C4.8 12.6613 4.70518 12.4324 4.5364 12.2636C4.36761 12.0948 4.13869 12 3.9 12C3.66131 12 3.43239 12.0948 3.2636 12.2636C3.09482 12.4324 3 12.6613 3 12.9V20.1C3 20.3387 3.09482 20.5676 3.2636 20.7364C3.43239 20.9052 3.66131 21 3.9 21H11.1C11.3387 21 11.5676 20.9052 11.7364 20.7364C11.9052 20.5676 12 20.3387 12 20.1C12 19.8613 11.9052 19.6324 11.7364 19.4636C11.5676 19.2948 11.3387 19.2 11.1 19.2H4.8V12.9Z" fill="#464646"/>
+                </svg>
+              </a>
             </div>
           </div>
-          <!-- navigation arrow -->
-          <button class="card__slider-arrow card__slider-arrow--prev" aria-label="Назад">
-            <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"></polyline></svg>
-          </button>
-          <button class="card__slider-arrow card__slider-arrow--next" aria-label="Вперёд">
-            <svg viewBox="0 0 24 24"><polyline points="9 6 15 12 9 18"></polyline></svg>
-          </button>
-          <!-- pagination -->
-          <div class="card__slider-pagination"></div>
+          <div class="card__slider-description">
+            Описание товара
+          </div>
         </div>
-        <!-- card__body -->
-        <div class="card__body">
-          <div class="card__article">
-            Артикул - <span>4607</span>
+        <!-- navigation arrow -->
+        <button class="card__slider-arrow card__slider-arrow--prev" aria-label="Назад">
+          <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"></polyline></svg>
+        </button>
+        <button class="card__slider-arrow card__slider-arrow--next" aria-label="Вперёд">
+          <svg viewBox="0 0 24 24"><polyline points="9 6 15 12 9 18"></polyline></svg>
+        </button>
+        <!-- pagination -->
+        <div class="card__slider-pagination"></div>
+      </div>
+      <!-- card__body -->
+      <div class="card__body">
+        <div class="card__article">
+          Артикул - <span>4607</span>
+        </div>
+        <h3 class="card__title">
+          Угловая бежевая кухня на заказ с матовыми фасадами в современном стиле «Нарцисс»
+        </h3>
+        <!-- card__material -->
+        <div class="card__material">
+          <div class="card__label">
+            Варианты материалов
           </div>
-          <h3 class="card__title">
-            Угловая бежевая кухня на заказ с матовыми фасадами в современном стиле «Нарцисс»
-          </h3>
-          <!-- card__material -->
-          <div class="card__material">
-            <div class="card__label">
-              Варианты материалов
+          <div class="card__badges" role="tablist">
+            <div role="tab" class="card__badge card__badge--active" data-material="1">
+              <span class="card__badge-check">✔</span>
+              ПВХ
             </div>
-            <div class="card__badges" role="tablist">
-              <div role="tab" class="card__badge card__badge--active" data-material="1">
-                  <span class="card__badge-check">✔</span>
-                  ПВХ
-                </div>
-              <div role="tab" class="card__badge" data-material="2">
-                  <span class="card__badge-check">✔</span>
-                  Эмаль
-                </div>
-              <div role="tab" class="card__badge" data-material="3">
-                  <span class="card__badge-check">✔</span>
-                  Пластик
-                </div>
-              <div role="tab" class="card__badge" data-material="4">
-                  <span class="card__badge-check">✔</span>
-                  Массив
-                </div>
+            <div role="tab" class="card__badge" data-material="2">
+              <span class="card__badge-check">✔</span>
+              Эмаль
+            </div>
+            <div role="tab" class="card__badge" data-material="3">
+              <span class="card__badge-check">✔</span>
+              Пластик
+            </div>
+            <div role="tab" class="card__badge" data-material="4">
+              <span class="card__badge-check">✔</span>
+              Массив
             </div>
           </div>
-          <!-- card__price -->
-          <div class="card__price">
-            <div class="card__price-info">
-              <div class="card__price-label">
-                Цена от
-              </div>
-              <div class="card__price-value">
-                515 700 ₽
-              </div>
-              <div class="card__price-start-value">
-                Погонный метр от - <span>30 000 ₽</span>
-              </div>
+        </div>
+        <!-- card__price -->
+        <div class="card__price">
+          <div class="card__price-info">
+            <div class="card__price-label">
+              Цена от
             </div>
-            <a class="card__price-button" href="/">
-              Заказать
-            </a>
+            <div class="card__price-value">
+              515 700 ₽
+            </div>
+            <div class="card__price-start-value">
+              Погонный метр от - <span>30 000 ₽</span>
+            </div>
           </div>
-          <!-- card__footer -->
-          <div class="card__footer">
-            <button class="card__like" id="likeBtn" aria-label="Поставить лайк">
-              <svg aria-hidden="true" focusable="false" class="card__heart-icon" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M17.9411 5.10325C17.0869 4.17687 15.9149 3.66666 14.6407 3.66666C13.6883 3.66666 12.816 3.96778 12.0481 4.56159C11.6606 4.86129 11.3095 5.22803 11 5.656C10.6906 5.22813 10.3394 4.86129 9.95177 4.56159C9.18397 3.96778 8.31172 3.66666 7.35927 3.66666C6.08506 3.66666 4.91295 4.17687 4.05882 5.10325C3.2149 6.01881 2.75 7.26962 2.75 8.62539C2.75 10.0208 3.27004 11.2982 4.3865 12.6454C5.38526 13.8505 6.82073 15.0739 8.48304 16.4904C9.05068 16.9742 9.69408 17.5226 10.3621 18.1067C10.5387 18.2613 10.7653 18.3465 11 18.3464C11.2348 18.3464 11.4614 18.2613 11.6376 18.1069C12.3057 17.5227 12.9494 16.9741 13.5173 16.4901C15.1794 15.0737 16.6148 13.8505 17.6136 12.6453C18.7301 11.2982 19.25 10.0208 19.25 8.62526C19.25 7.26962 18.7851 6.01881 17.9411 5.10325Z" fill="#A1A5AD"/>
-              </svg>
-              <span class="card__like-count">57</span>
-            </button>
-            <a class="card__calc" href="/calc" target="_blank">
-              Рассчитать стоимость
-              <svg aria-hidden="true" focusable="false" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M8.66595 5.97943C8.66644 6.06437 8.65016 6.14858 8.61804 6.22721C8.58592 6.30585 8.5386 6.37737 8.47878 6.43768L4.6063 10.3102C4.48476 10.4317 4.31993 10.5 4.14805 10.5C3.97618 10.5 3.81134 10.4317 3.68981 10.3102C3.56828 10.1886 3.5 10.0238 3.5 9.85192C3.5 9.68004 3.56828 9.51521 3.68981 9.39367L7.1105 5.97943L3.69627 2.5652C3.59053 2.44173 3.53528 2.28291 3.54155 2.12047C3.54783 1.95804 3.61516 1.80395 3.73011 1.68901C3.84505 1.57406 3.99914 1.50673 4.16157 1.50045C4.32401 1.49418 4.48283 1.54943 4.6063 1.65516L8.47878 5.52764C8.59801 5.64786 8.66524 5.81012 8.66595 5.97943Z" fill="#656565"/>
-              </svg>
-            </a>
-          </div>
+          <a class="card__price-button" href="/">
+            Заказать
+          </a>
+        </div>
+        <!-- card__footer -->
+        <div class="card__footer">
+          <button class="card__like" aria-label="Поставить лайк">
+            <svg aria-hidden="true" focusable="false" class="card__heart-icon" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M17.9411 5.10325C17.0869 4.17687 15.9149 3.66666 14.6407 3.66666C13.6883 3.66666 12.816 3.96778 12.0481 4.56159C11.6606 4.86129 11.3095 5.22803 11 5.656C10.6906 5.22813 10.3394 4.86129 9.95177 4.56159C9.18397 3.96778 8.31172 3.66666 7.35927 3.66666C6.08506 3.66666 4.91295 4.17687 4.05882 5.10325C3.2149 6.01881 2.75 7.26962 2.75 8.62539C2.75 10.0208 3.27004 11.2982 4.3865 12.6454C5.38526 13.8505 6.82073 15.0739 8.48304 16.4904C9.05068 16.9742 9.69408 17.5226 10.3621 18.1067C10.5387 18.2613 10.7653 18.3465 11 18.3464C11.2348 18.3464 11.4614 18.2613 11.6376 18.1069C12.3057 17.5227 12.9494 16.9741 13.5173 16.4901C15.1794 15.0737 16.6148 13.8505 17.6136 12.6453C18.7301 11.2982 19.25 10.0208 19.25 8.62526C19.25 7.26962 18.7851 6.01881 17.9411 5.10325Z" fill="#A1A5AD"/>
+            </svg>
+            <span class="card__like-count">57</span>
+          </button>
+          <a class="card__calc" href="/calc" target="_blank">
+            Рассчитать стоимость
+            <svg aria-hidden="true" focusable="false" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8.66595 5.97943C8.66644 6.06437 8.65016 6.14858 8.61804 6.22721C8.58592 6.30585 8.5386 6.37737 8.47878 6.43768L4.6063 10.3102C4.48476 10.4317 4.31993 10.5 4.14805 10.5C3.97618 10.5 3.81134 10.4317 3.68981 10.3102C3.56828 10.1886 3.5 10.0238 3.5 9.85192C3.5 9.68004 3.56828 9.51521 3.68981 9.39367L7.1105 5.97943L3.69627 2.5652C3.59053 2.44173 3.53528 2.28291 3.54155 2.12047C3.54783 1.95804 3.61516 1.80395 3.73011 1.68901C3.84505 1.57406 3.99914 1.50673 4.16157 1.50045C4.32401 1.49418 4.48283 1.54943 4.6063 1.65516L8.47878 5.52764C8.59801 5.64786 8.66524 5.81012 8.66595 5.97943Z" fill="#656565"/>
+            </svg>
+          </a>
         </div>
       </div>
     </div>
-  </section>
 
-  <!-- swiper js -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script>
-    const swiper = new Swiper('.swiper', {
+    <!-- card 2 (дубликат) -->
+    <div class="section__card card">
+      <a class="card__link" href="/card-2" target="_blank"></a>
+      <!-- card__slider -->
+      <div class="card__slider">
+        <div class="swiper card__slider-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide card__slider-slide">
+              <img
+                class="card__slider-image"
+                src="./assets/images/slide-1.jpg"
+                alt="Товар фото 1"
+              >
+              <a
+                href="./assets/images/slide-1-large.jpg"
+                data-fancybox="gallery"
+                data-caption="Описание 1"
+                class="card__slider-zoom"
+                aria-label="Открыть изображение в полном размере"
+              >
+                <svg aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M19.2 11.1C19.2 11.3387 19.2948 11.5676 19.4636 11.7364C19.6324 11.9052 19.8613 12 20.1 12C20.3387 12 20.5676 11.9052 20.7364 11.7364C20.9052 11.5676 21 11.3387 21 11.1V3.9C21 3.66131 20.9052 3.43239 20.7364 3.2636C20.5676 3.09482 20.3387 3 20.1 3H12.9C12.6613 3 12.4324 3.09482 12.2636 3.2636C12.0948 3.43239 12 3.66131 12 3.9C12 4.13869 12.0948 4.36761 12.2636 4.5364C12.4324 4.70518 12.6613 4.8 12.9 4.8H19.2V11.1ZM4.8 12.9C4.8 12.6613 4.70518 12.4324 4.5364 12.2636C4.36761 12.0948 4.13869 12 3.9 12C3.66131 12 3.43239 12.0948 3.2636 12.2636C3.09482 12.4324 3 12.6613 3 12.9V20.1C3 20.3387 3.09482 20.5676 3.2636 20.7364C3.43239 20.9052 3.66131 21 3.9 21H11.1C11.3387 21 11.5676 20.9052 11.7364 20.7364C11.9052 20.5676 12 20.3387 12 20.1C12 19.8613 11.9052 19.6324 11.7364 19.4636C11.5676 19.2948 11.3387 19.2 11.1 19.2H4.8V12.9Z" fill="#464646"/>
+                </svg>
+              </a>
+            </div>
+            <div class="swiper-slide card__slider-slide">
+              <img
+                class="card__slider-image"
+                src="./assets/images/slide-1.jpg"
+                alt="Товар фото 2"
+              >
+              <a
+                href="./assets/images/slide-1-large.jpg"
+                data-fancybox="gallery"
+                data-caption="Описание 2"
+                class="card__slider-zoom"
+                aria-label="Открыть изображение в полном размере"
+              >
+                <svg aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M19.2 11.1C19.2 11.3387 19.2948 11.5676 19.4636 11.7364C19.6324 11.9052 19.8613 12 20.1 12C20.3387 12 20.5676 11.9052 20.7364 11.7364C20.9052 11.5676 21 11.3387 21 11.1V3.9C21 3.66131 20.9052 3.43239 20.7364 3.2636C20.5676 3.09482 20.3387 3 20.1 3H12.9C12.6613 3 12.4324 3.09482 12.2636 3.2636C12.0948 3.43239 12 3.66131 12 3.9C12 4.13869 12.0948 4.36761 12.2636 4.5364C12.4324 4.70518 12.6613 4.8 12.9 4.8H19.2V11.1ZM4.8 12.9C4.8 12.6613 4.70518 12.4324 4.5364 12.2636C4.36761 12.0948 4.13869 12 3.9 12C3.66131 12 3.43239 12.0948 3.2636 12.2636C3.09482 12.4324 3 12.6613 3 12.9V20.1C3 20.3387 3.09482 20.5676 3.2636 20.7364C3.43239 20.9052 3.66131 21 3.9 21H11.1C11.3387 21 11.5676 20.9052 11.7364 20.7364C11.9052 20.5676 12 20.3387 12 20.1C12 19.8613 11.9052 19.6324 11.7364 19.4636C11.5676 19.2948 11.3387 19.2 11.1 19.2H4.8V12.9Z" fill="#464646"/>
+                </svg>
+              </a>
+            </div>
+            <div class="swiper-slide card__slider-slide">
+              <img
+                class="card__slider-image"
+                src="./assets/images/slide-1.jpg"
+                alt="Товар фото 3"
+              >
+              <a
+                href="./assets/images/slide-1-large.jpg"
+                data-fancybox="gallery"
+                data-caption="Описание 3"
+                class="card__slider-zoom"
+                aria-label="Открыть изображение в полном размере"
+              >
+                <svg aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M19.2 11.1C19.2 11.3387 19.2948 11.5676 19.4636 11.7364C19.6324 11.9052 19.8613 12 20.1 12C20.3387 12 20.5676 11.9052 20.7364 11.7364C20.9052 11.5676 21 11.3387 21 11.1V3.9C21 3.66131 20.9052 3.43239 20.7364 3.2636C20.5676 3.09482 20.3387 3 20.1 3H12.9C12.6613 3 12.4324 3.09482 12.2636 3.2636C12.0948 3.43239 12 3.66131 12 3.9C12 4.13869 12.0948 4.36761 12.2636 4.5364C12.4324 4.70518 12.6613 4.8 12.9 4.8H19.2V11.1ZM4.8 12.9C4.8 12.6613 4.70518 12.4324 4.5364 12.2636C4.36761 12.0948 4.13869 12 3.9 12C3.66131 12 3.43239 12.0948 3.2636 12.2636C3.09482 12.4324 3 12.6613 3 12.9V20.1C3 20.3387 3.09482 20.5676 3.2636 20.7364C3.43239 20.9052 3.66131 21 3.9 21H11.1C11.3387 21 11.5676 20.9052 11.7364 20.7364C11.9052 20.5676 12 20.3387 12 20.1C12 19.8613 11.9052 19.6324 11.7364 19.4636C11.5676 19.2948 11.3387 19.2 11.1 19.2H4.8V12.9Z" fill="#464646"/>
+                </svg>
+              </a>
+            </div>
+            <div class="swiper-slide card__slider-slide">
+              <img
+                class="card__slider-image"
+                src="./assets/images/slide-1.jpg"
+                alt="Товар фото 4"
+              >
+              <a
+                href="./assets/images/slide-1-large.jpg"
+                data-fancybox="gallery"
+                data-caption="Описание 4"
+                class="card__slider-zoom"
+                aria-label="Открыть изображение в полном размере"
+              >
+                <svg aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M19.2 11.1C19.2 11.3387 19.2948 11.5676 19.4636 11.7364C19.6324 11.9052 19.8613 12 20.1 12C20.3387 12 20.5676 11.9052 20.7364 11.7364C20.9052 11.5676 21 11.3387 21 11.1V3.9C21 3.66131 20.9052 3.43239 20.7364 3.2636C20.5676 3.09482 20.3387 3 20.1 3H12.9C12.6613 3 12.4324 3.09482 12.2636 3.2636C12.0948 3.43239 12 3.66131 12 3.9C12 4.13869 12.0948 4.36761 12.2636 4.5364C12.4324 4.70518 12.6613 4.8 12.9 4.8H19.2V11.1ZM4.8 12.9C4.8 12.6613 4.70518 12.4324 4.5364 12.2636C4.36761 12.0948 4.13869 12 3.9 12C3.66131 12 3.43239 12.0948 3.2636 12.2636C3.09482 12.4324 3 12.6613 3 12.9V20.1C3 20.3387 3.09482 20.5676 3.2636 20.7364C3.43239 20.9052 3.66131 21 3.9 21H11.1C11.3387 21 11.5676 20.9052 11.7364 20.7364C11.9052 20.5676 12 20.3387 12 20.1C12 19.8613 11.9052 19.6324 11.7364 19.4636C11.5676 19.2948 11.3387 19.2 11.1 19.2H4.8V12.9Z" fill="#464646"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="card__slider-description">
+            Описание товара
+          </div>
+        </div>
+        <!-- navigation arrow -->
+        <button class="card__slider-arrow card__slider-arrow--prev" aria-label="Назад">
+          <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"></polyline></svg>
+        </button>
+        <button class="card__slider-arrow card__slider-arrow--next" aria-label="Вперёд">
+          <svg viewBox="0 0 24 24"><polyline points="9 6 15 12 9 18"></polyline></svg>
+        </button>
+        <!-- pagination -->
+        <div class="card__slider-pagination"></div>
+      </div>
+      <!-- card__body -->
+      <div class="card__body">
+        <div class="card__article">
+          Артикул - <span>4608</span>
+        </div>
+        <h3 class="card__title">
+          Прямая белая кухня на заказ с глянцевыми фасадами в современном стиле
+        </h3>
+        <!-- card__material -->
+        <div class="card__material">
+          <div class="card__label">
+            Варианты материалов
+          </div>
+          <div class="card__badges" role="tablist">
+            <div role="tab" class="card__badge card__badge--active" data-material="1">
+              <span class="card__badge-check">✔</span>
+              ПВХ
+            </div>
+            <div role="tab" class="card__badge" data-material="2">
+              <span class="card__badge-check">✔</span>
+              Эмаль
+            </div>
+            <div role="tab" class="card__badge" data-material="3">
+              <span class="card__badge-check">✔</span>
+              Пластик
+            </div>
+            <div role="tab" class="card__badge" data-material="4">
+              <span class="card__badge-check">✔</span>
+              Массив
+            </div>
+          </div>
+        </div>
+        <!-- card__price -->
+        <div class="card__price">
+          <div class="card__price-info">
+            <div class="card__price-label">
+              Цена от
+            </div>
+            <div class="card__price-value">
+              485 200 ₽
+            </div>
+            <div class="card__price-start-value">
+              Погонный метр от - <span>27 000 ₽</span>
+            </div>
+          </div>
+          <a class="card__price-button" href="/">
+            Заказать
+          </a>
+        </div>
+        <!-- card__footer -->
+        <div class="card__footer">
+          <button class="card__like" aria-label="Поставить лайк">
+            <svg aria-hidden="true" focusable="false" class="card__heart-icon" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M17.9411 5.10325C17.0869 4.17687 15.9149 3.66666 14.6407 3.66666C13.6883 3.66666 12.816 3.96778 12.0481 4.56159C11.6606 4.86129 11.3095 5.22803 11 5.656C10.6906 5.22813 10.3394 4.86129 9.95177 4.56159C9.18397 3.96778 8.31172 3.66666 7.35927 3.66666C6.08506 3.66666 4.91295 4.17687 4.05882 5.10325C3.2149 6.01881 2.75 7.26962 2.75 8.62539C2.75 10.0208 3.27004 11.2982 4.3865 12.6454C5.38526 13.8505 6.82073 15.0739 8.48304 16.4904C9.05068 16.9742 9.69408 17.5226 10.3621 18.1067C10.5387 18.2613 10.7653 18.3465 11 18.3464C11.2348 18.3464 11.4614 18.2613 11.6376 18.1069C12.3057 17.5227 12.9494 16.9741 13.5173 16.4901C15.1794 15.0737 16.6148 13.8505 17.6136 12.6453C18.7301 11.2982 19.25 10.0208 19.25 8.62526C19.25 7.26962 18.7851 6.01881 17.9411 5.10325Z" fill="#A1A5AD"/>
+            </svg>
+            <span class="card__like-count">32</span>
+          </button>
+          <a class="card__calc" href="/calc" target="_blank">
+            Рассчитать стоимость
+            <svg aria-hidden="true" focusable="false" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8.66595 5.97943C8.66644 6.06437 8.65016 6.14858 8.61804 6.22721C8.58592 6.30585 8.5386 6.37737 8.47878 6.43768L4.6063 10.3102C4.48476 10.4317 4.31993 10.5 4.14805 10.5C3.97618 10.5 3.81134 10.4317 3.68981 10.3102C3.56828 10.1886 3.5 10.0238 3.5 9.85192C3.5 9.68004 3.56828 9.51521 3.68981 9.39367L7.1105 5.97943L3.69627 2.5652C3.59053 2.44173 3.53528 2.28291 3.54155 2.12047C3.54783 1.95804 3.61516 1.80395 3.73011 1.68901C3.84505 1.57406 3.99914 1.50673 4.16157 1.50045C4.32401 1.49418 4.48283 1.54943 4.6063 1.65516L8.47878 5.52764C8.59801 5.64786 8.66524 5.81012 8.66595 5.97943Z" fill="#656565"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- swiper js -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  document.querySelectorAll('.card__slider-swiper').forEach((swiperEl) => {
+    const slider = swiperEl.closest('.card__slider');
+    const paginationEl = slider.querySelector('.card__slider-pagination');
+    const nextEl = slider.querySelector('.card__slider-arrow--next');
+    const prevEl = slider.querySelector('.card__slider-arrow--prev');
+
+    new Swiper(swiperEl, {
       loop: true,
       pagination: {
-        el: '.card__slider-pagination',
+        el: paginationEl,
         clickable: true,
       },
       autoplay: {
@@ -180,38 +371,38 @@
         disableOnInteraction: false,
       },
       navigation: {
-        nextEl: '.card__slider-arrow--next',
-        prevEl: '.card__slider-arrow--prev',
+        nextEl,
+        prevEl,
       },
       breakpoints: {
         0: {
-
           allowTouchMove: true,
         },
         768: {
           allowTouchMove: false,
           autoplay: false,
-        }
-      }
-    });
-  </script>
-
-  <!-- fancybox js -->
-  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
-  <script >
-    Fancybox.bind("[data-fancybox]", {
-      Images: {
-        Panzoom: {
-          maxScale: 4,
         },
       },
-      Carousel: {
-        transition: "slide",
-      },
     });
-  </script>
+  });
+</script>
 
-  <!-- basic js -->
-  <script type="module" src="./js/main.js"></script>
+<!-- fancybox js -->
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<script >
+  Fancybox.bind("[data-fancybox]", {
+    Images: {
+      Panzoom: {
+        maxScale: 4,
+      },
+    },
+    Carousel: {
+      transition: "slide",
+    },
+  });
+</script>
+
+<!-- basic js -->
+<script type="module" src="./js/main.js"></script>
 </body>
 </html>

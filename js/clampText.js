@@ -1,3 +1,7 @@
+const supportsClamp =
+  typeof CSS !== 'undefined' &&
+  (CSS.supports('-webkit-line-clamp', '2') || CSS.supports('line-clamp', '2'));
+
 const clampFallback = (el, lines = 2) => {
   if (supportsClamp) return;
 
