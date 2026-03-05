@@ -1,0 +1,13 @@
+:root {
+  --color-white: #FFFFFF;
+  --color-black: #32312F;
+  --color-gray: #F6F6F6;
+  --color-orange: #FF5C00;
+
+  --font-family-base: 'San Francisco', sans-serif;
+
+  --container-width: 1040px;
+  --container-padding-x: 16px;
+
+  --transition-duration: 0.2s;
+}

@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-family-base);
+  background-color: var(--color-white);
+}
+
+a,
+button,
+label,
+input,
+textarea,
+select,
+svg * {
+  transition-duration: var(--transition-duration);
+}
+
+a {
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 2px dashed var(--color-black);
+  outline-offset: 4px;
+  transition-duration: 0s !important;
+}
