@@ -301,6 +301,10 @@
   cursor: pointer;
 }
 
+.card__like-count {
+  color: var(--color-gray);
+}
+
 .card__like:hover {
   border-color: var(--color-black);
 }
