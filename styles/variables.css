@@ -1,7 +1,8 @@
 :root {
   --color-white: #FFFFFF;
   --color-black: #32312F;
-  --color-gray: #F6F6F6;
+  --color-gray: #656565;
+  --color-light-gray: #F6F6F6;
   --color-orange: #FF5C00;
 
   --font-family-base: 'San Francisco', sans-serif;

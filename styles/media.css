@@ -1,0 +1,23 @@
+@media (width < 768px) {
+  .section__grid {
+    grid-template-columns: 1fr;
+  }
+  .card__slider-arrow {
+    display: none;
+  }
+  .card__price {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (width > 768px) {
+  .card:hover .card__slider-description {
+    display: unset;
+  }
+  .card__price-button {
+    display: none;
+  }
+  .card:hover .card__price-button {
+    display: flex;
+  }
+}
