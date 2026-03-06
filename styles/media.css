@@ -20,4 +20,7 @@
   .card:hover .card__price-button {
     display: flex;
   }
+  .card:hover .card__slider-description {
+    display: block;
+  }
 }
